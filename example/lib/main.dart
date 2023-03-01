@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Expanded(
               child: Container(
                 width: 400,
-                child: new OnscreenKeyboard(
+                child: new OnscreenKeyboard2(
                   value: 'atha',
                   initialCase: InitialCase.LOWER_CASE,
                   backgroundColor: Colors.transparent,

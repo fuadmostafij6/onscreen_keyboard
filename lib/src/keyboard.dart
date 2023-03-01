@@ -7,7 +7,7 @@ import 'package:onscreen_keyboard/src/utils.dart';
 
 ///
 ///
-class OnscreenKeyboard extends StatelessWidget {
+class OnscreenKeyboard2 extends StatelessWidget {
   final ValueChanged<String?>? onChanged;
   final String? value;
   final InitialCase initialCase;
@@ -15,7 +15,7 @@ class OnscreenKeyboard extends StatelessWidget {
   final Color? backgroundColor;
   final Color? buttonColor;
   final Color? focusColor;
-  OnscreenKeyboard({
+  OnscreenKeyboard2({
     this.onChanged,
     this.backgroundColor,
     this.focusColor,
